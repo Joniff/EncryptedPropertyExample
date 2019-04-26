@@ -33,7 +33,6 @@ namespace Example
 		public PropertyModel(PropertyModel other)
 		{
 			Connector = other.Connector;
-			List = other.List;
 		}
 
 		public PropertyModel(string json) : this(string.IsNullOrWhiteSpace(json) ? null : JsonConvert.DeserializeObject<PropertyModel>(json[0] == '{' ? json : cryptography.Decrypt(json)))
