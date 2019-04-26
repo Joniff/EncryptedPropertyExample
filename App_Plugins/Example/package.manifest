@@ -1,0 +1,13 @@
+﻿{
+  "javascript": [
+	"~/App_Plugins/Terrabec/backoffice/Scripts/directives.js?version=1.0.0",
+	"~/App_Plugins/Terrabec/backoffice/Scripts/service.js?version=1.0.0",
+	"~/App_Plugins/Terrabec/backoffice/Scripts/overview.js?version=1.0.0",
+	"~/App_Plugins/Terrabec/backoffice/Scripts/info.js?version=1.0.1",
+	"~/App_Plugins/Terrabec/backoffice/Scripts/list.js?version=1.0.0",
+	"~/App_Plugins/Terrabec/backoffice/Scripts/email.js?version=1.0.0"
+  ],
+  "css": [
+	"~/App_Plugins/Terrabec/backoffice/Styles/treecontroller.css?version=1.0.0"
+  ]
+}
