@@ -6,7 +6,7 @@ namespace Example
 {
 	[JsonObject(MemberSerialization.OptIn)]
 	[JsonConverter(typeof(PropertyModelJsonConvertor))]
-	[DebuggerDisplay("{connector")]
+	[DebuggerDisplay("{connector}")]
 	public class PropertyModel
 	{
 		private static Cryptography cryptography = new Cryptography(nameof(Example));
