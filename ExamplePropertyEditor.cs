@@ -5,7 +5,7 @@ using Umbraco.Web.PropertyEditors;
 
 namespace Example
 {
-	[PropertyEditor(TerrabecEnumerateListsPropertyEditor.PropertyEditorAlias, "Example Property", "/App_Plugins/Example/editor.html?cache=1.0.0", ValueType = PropertyEditorValueTypes.Text, Group = "Examples", Icon = "icon-layers-alt")]
+	[PropertyEditor(ExamplePropertyEditor.PropertyEditorAlias, "Example Property", "/App_Plugins/Example/editor.html?cache=1.0.0", ValueType = PropertyEditorValueTypes.Text, Group = "Examples", Icon = "icon-layers-alt")]
 #if DEBUG
 	[PropertyEditorAsset(ClientDependencyType.Javascript, "/App_Plugins/Example/Scripts/example.js?cache=1.0.0")]
 #else
